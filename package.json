@@ -1,0 +1,32 @@
+{
+  "name": "mcp-serper-server",
+  "version": "1.0.0",
+  "description": "MCP server that uses Serper API for web search and research",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "serper",
+    "search",
+    "research"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.7.2",
+    "dotenv": "^17.2.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.4.0"
+  }
+}
